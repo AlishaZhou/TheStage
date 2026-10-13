@@ -65,18 +65,21 @@ body{
   transition: font-variation-settings .2s;
   font-variation-settings: 
   "WIDN" 100,
-  "SQZE" 0;
+  "SQZE" 0,
+  "STRC" 0;
 }
 .moldablekity:hover {
     font-variation-settings: 
   "WIDN" 0,
-  "SQZE" 100;
+  "SQZE" 100,
+  "STRC" 0;
   cursor: url(cursorhover.png), pointer;
 }
 
 .moldablekity:active {
       font-variation-settings: 
   "WIDN" 100,
+  "SQZE" 0,
   "STRC" 100;
 }
 
@@ -153,7 +156,7 @@ body{
 
 .kitties span:nth-child(11) {
   animation-delay: 69s;
-  animation-duration: 2s;
+  animation-duration: 2.5s;
 }
 
 .kitties span:nth-child(12) {
