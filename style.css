@@ -99,11 +99,7 @@ body{
     background-color: black;
   }
 }
-.kitties span:hover {
-  font-variation-settings: 
-  "WIDN" 100,
-  "SQZE" 100;
-}
+
 .kitties span:nth-child(1) {
   animation-delay: 0s;
   animation-duration: 1s;
