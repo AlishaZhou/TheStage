@@ -1,0 +1,174 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body{
+  all: unset;
+}
+body{
+  line-height: 0px;
+}
+@font-face {
+  font-family: LiquidCats;
+  src: url(LiquidCatsVF.ttf) format('truetype')
+}
+@keyframes fadeout {
+  0%{
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+
+.note{
+  animation: fadeout 5s linear;
+  opacity: 0%;
+}
+
+@keyframes anim-title {
+  0% {
+    opacity: 0%;
+    scale: 25%;
+    font-variation-settings: "WIDN" 0;
+  }
+
+  1% {
+    opacity: 100%;
+  }
+
+  50% {
+    scale: 100%;
+  }
+
+  51% {
+    font-variation-settings: "WIDN" 0;
+  }
+
+  99% {
+    opacity: 100%;
+  }
+
+  100% {
+    opacity: 0%;
+    font-variation-settings: "WIDN" 100;
+  }
+}
+.moldablekity {
+  color: grey;
+  position: absolute;
+  font-family: LiquidCats;
+  font-size: 300px;
+  transition: font-variation-settings .2s;
+  font-variation-settings: 
+  "WIDN" 100,
+  "SQZE" 0;
+}
+.moldablekity:hover {
+    font-variation-settings: 
+  "WIDN" 0,
+  "SQZE" 100;
+}
+
+.kitties span {
+  position: absolute;
+  opacity: 0%;
+  font-family: LiquidCats;
+  font-size: 500px;
+  font-variation-settings: 
+  "WIDN" 100,
+  "SQZE" 0;
+  animation: anim-title linear;
+}
+    @media only screen and (max-width: 600px) {
+  body {
+    color: white;
+    background-color: black;
+  }
+}
+.kitties span:hover {
+  font-variation-settings: 
+  "WIDN" 100,
+  "SQZE" 100;
+}
+.kitties span:nth-child(1) {
+  animation-delay: 0s;
+  animation-duration: 1s;
+}
+
+.kitties span:nth-child(2) {
+  animation-delay: 11s;
+  animation-duration: .25s;
+}
+
+.kitties span:nth-child(3) {
+  animation-delay: 15s;
+  animation-duration: 4s;
+}
+
+.kitties span:nth-child(4) {
+  animation-delay: 24s;
+  animation-duration: .75s;
+}
+
+.kitties span:nth-child(5) {
+  animation-delay: 38s;
+  animation-duration: 3.75s;
+}
+
+.kitties span:nth-child(6) {
+  animation-delay: 55s;
+  animation-duration: .25s;
+}
+
+.kitties span:nth-child(7) {
+  animation-delay: 55.25s;
+  animation-duration: .25s;
+}
+
+.kitties span:nth-child(8) {
+  animation-delay: 55.5s;
+  animation-duration: .25s;
+}
+
+.kitties span:nth-child(9) {
+  animation-delay: 55.75s;
+  animation-duration: .25s;
+}
+
+.kitties span:nth-child(10) {
+  animation-delay: 56s;
+  animation-duration: .25s;
+}
+
+.kitties span:nth-child(11) {
+  animation-delay: 69s;
+  animation-duration: 2s;
+}
+
+.kitties span:nth-child(12) {
+  animation-delay: 78s;
+  animation-duration: 2s;
+}
+
+.kitties span:nth-child(13) {
+  animation-delay: 86s;
+  animation-duration: 6s;
+}
+
+.kitties span:nth-child(14) {
+  animation-delay: 99s;
+  animation-duration: 6s;
+}
+
+.kitties span:nth-child(15) {
+  animation-delay: 112s;
+  animation-duration: 1s;
+}
+
+.kitties span:nth-child(16) {
+  animation-delay: 116s;
+  animation-duration: 4s;
+}
