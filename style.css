@@ -9,6 +9,7 @@ body{
 }
 body{
   line-height: 0px;
+  cursor: url(cursor.png), auto;
 }
 @font-face {
   font-family: LiquidCats;
@@ -70,6 +71,13 @@ body{
     font-variation-settings: 
   "WIDN" 0,
   "SQZE" 100;
+  cursor: url(cursorhover.png), pointer;
+}
+
+.moldablekity:active {
+      font-variation-settings: 
+  "WIDN" 100,
+  "STRC" 100;
 }
 
 .kitties span {
